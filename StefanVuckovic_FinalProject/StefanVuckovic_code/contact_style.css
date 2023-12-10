@@ -1,0 +1,118 @@
+/* Add this CSS code to your style.css file or within the <style> tag in the <head> section */
+
+@font-face {
+    font-family: 'Super Mario';
+    src: url('fonts/Super Mario Bros..ttf');
+}
+
+
+body {
+    margin: 0; 
+    font-family: 'Super Mario', sans-serif;
+    font-size: 40px;
+}
+
+.contact-form {
+    max-width: 600px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.transparent-holder {
+    margin-bottom: 20px; 
+}
+
+.input-container {
+    position: relative;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    background-color: transparent;
+    color: #fff; 
+}
+
+::placeholder {
+    color: #ffffff8c; 
+}
+
+.input-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #000; 
+}
+
+textarea {
+    resize: none; 
+
+}
+
+.submit-button {
+    background-color: #ffffff;
+    margin-top: 25px;
+    color: #000000;
+    font-weight: 100;
+    font-size: large;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeb2b2;
+    color: black;
+    font-weight: bold;
+    padding: 2%;
+    margin-top: -10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height:1px;
+    width: 96%;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    height: 100px;
+}
+
+footer h3 {
+    flex: 1;
+    text-align: center;
+}
+#socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; 
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px; 
+}
